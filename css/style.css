@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  width: 960px;
+  border: solid 3px black;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+
+}
+
+.container1 {
+  border: solid 3px;
+  margin: 10px;
+  width: 940px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container2 {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.headsquare {
+  width: 910px;
+  min-height: 70px;
+  border: solid 3px black;
+  margin: 5px;
+}
+
+p {
+  text-align: center;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.coolimage {
+  width: 910px;
+  min-height: 200px;
+  border: solid 3px black;
+  margin: 10px;
+}
+
+.cool {
+  margin-top: 90px;
+}
+
+.mainBlokken {
+  display: flex;
+  /*justify-content: space-between;*/
+
+}
+
+.mainLinks {
+  width: 260px;
+  min-height: 470px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vierkant1 {
+  width: 230px;
+  min-height: 200px;
+  border: solid 3px;
+  margin: 10px;
+}
+
+.vierkant2,
+.vierkant3 {
+  width: 230px;
+  min-height: 100px;
+  border: solid 3px;
+  margin: 10px;
+}
+
+.vierkant4 {
+  width: 230px;
+  min-height: 40px;
+  margin: 10px;
+}
+
+.client {
+  margin-top: 10px;
+}
+
+.mainMidden {
+  width: 640px;
+  min-height: 470px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.doubbleSquare {
+  display: flex;
+}
+
+.bigSquare {
+  width: 430px;
+  min-height: 300px;
+  border: solid 3px;
+  margin: 5px;
+}
+
+.statement {
+  margin-top: 80px
+}
+
+.list {
+  width: 200px;
+  min-height: 300px;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: square;
+  margin: 10px 0px 0px 50px;
+}
+
+.news {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 30px
+}
+
+.tripplesquare {
+  display: flex;
+}
+
+.square1,
+.square2,
+.square3 {
+  width: 210px;
+  min-height: 150px;
+  border: solid 3px;
+  margin: 5px;
+
+}
+
+
+.foot {
+  width: 900px;
+  min-height: 100px;
+  background-color: #bebaba;
+  margin: 10px;
+}
+
+.text {
+  padding-top: 40px;
+}
